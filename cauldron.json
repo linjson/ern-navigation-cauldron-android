@@ -17,7 +17,7 @@
                   "git+ssh://git@github.com/electrode-io/MoviesReloadedMiniApp.git#a0b3dc3fe654fef8500bb3a2637c157f36272a68"
                 ],
                 "nativeDeps": [
-                  "ernnavigation-api@1.0.5",
+                  "ernnavigation-api@1.1.0",
                   "react-native-electrode-bridge@1.5.19",
                   "react-native@0.59.4"
                 ],
