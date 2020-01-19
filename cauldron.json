@@ -14,7 +14,7 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [
-                  "git+ssh://git@github.com/electrode-io/MoviesReloadedMiniApp.git#a0b3dc3fe654fef8500bb3a2637c157f36272a68"
+                  "git+https://github.com/linjson/movies-reloaded-miniapp.git"
                 ],
                 "nativeDeps": [
                   "ernnavigation-api@1.1.0",
@@ -22,7 +22,7 @@
                   "react-native@0.59.4"
                 ],
                 "miniAppsBranches": [
-                  "git+ssh://git@github.com/electrode-io/MoviesReloadedMiniApp.git#master"
+                  "git+https://github.com/linjson/movies-reloaded-miniapp.git#master"
                 ],
                 "ernVersion": "0.36.4"
               },
