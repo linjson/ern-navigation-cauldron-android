@@ -1,78 +1,60 @@
 {
-  "name": "Cauldron",
   "nativeApps": [
     {
-      "name": "miniMiniApp",
-      "platforms": [
-        {
-          "name": "ios",
-          "versions": []
-        }
-      ]
-    },
-    {
-      "name": "MoviesReloaded",
+      "name": "MyWeatherApp",
       "platforms": [
         {
           "name": "android",
           "versions": [
             {
-              "name": "1001.0.0",
+             "name": "1.0.0",
+
+              "isReleased": true,
               "binary": null,
-              "codePush": {},
-              "container": {
-                "jsApiImpls": [],
-                "miniApps": [
-                  "https://github.com/linjson/movies-reloaded-miniapp.git#master"
-                ],
-                "nativeDeps": [
-                  "ernnavigation-api@1.1.0",
-                  "react-native-electrode-bridge@1.5.19",
-                  "react-native@0.59.4"
-                ],
-                "miniAppsBranches": [
-                  "https://github.com/linjson/movies-reloaded-miniapp.git#master"
-                ],
-                "ernVersion": "0.36.4"
-              },
-              "isReleased": false,
-              "nativeDeps": [],
               "yarnLocks": {
-                "container": "067c8d42-484d-48c4-a23a-5d0e35e036a6"
+                "container": "3f5f0e4bac859b9e83adacacc2141e594ac1403d"
               },
-              "containerVersion": "1.0.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "MyApp",
-      "platforms": [
-        {
-          "name": "android",
-          "versions": [
-            {
-              "name": "0.0.1",
-              "binary": null,
-              "codePush": {},
+              "codePush": {
+                "Production": [
+                  {
+                    "metadata": {
+                      "deploymentName": "Production",
+                      "isMandatory": true,
+                      "appVersion": "1.0.0",
+                      "size": 1877208,
+                      "releaseMethod": "Release",
+                      "label": "v16",
+                      "releasedBy": "whoever@whatever.com",
+                      "rollout": 100
+                    },
+                    "miniapps": [
+                      "movielistminiapp@0.0.11",
+                      "https://github.com/electrode-io/MovieDetailsMiniApp#0.0.9"
+                    ],
+                    "jsApiImpls": []
+                  }
+                ]
+              },
+              "containerVersion": "1.0.9",
               "container": {
+                "nativeDeps": [
+                  "react-native-code-push@5.2.1",
+                  "react-native-ernmovie-api@0.0.9",
+                  "react-native-ernnavigation-api@0.0.4",
+                  "react-native@0.52.2",
+                  "react-native-electrode-bridge@1.5.9"
+                ],
+                "miniApps": [
+                  "movielistminiapp@0.0.10",
+                  "https://github.com/electrode-io/MovieDetailsMiniApp#0.0.9"
+                ],
                 "jsApiImpls": [],
-                "miniApps": [],
-                "nativeDeps": []
-              },
-              "isReleased": false,
-              "nativeDeps": [],
-              "yarnLocks": {}
+                "ernPlatformVersion": "0.24.0"
+              }
             }
           ]
-        },
-        {
-          "name": "ios",
-          "versions": []
         }
       ]
     }
-  ],
-  "schemaVersion": "3.0.0"
+  ]
 }
