@@ -23,7 +23,7 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [
-                  "git+https://github.com/linjson/movies-reloaded-miniapp.git"
+                  "https://github.com/linjson/movies-reloaded-miniapp.git"
                 ],
                 "nativeDeps": [
                   "ernnavigation-api@1.1.0",
@@ -31,7 +31,7 @@
                   "react-native@0.59.4"
                 ],
                 "miniAppsBranches": [
-                  "git+https://github.com/linjson/movies-reloaded-miniapp.git#master"
+                  "https://github.com/linjson/movies-reloaded-miniapp.git"
                 ],
                 "ernVersion": "0.36.4"
               },
