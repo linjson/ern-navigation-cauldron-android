@@ -38,8 +38,5 @@
       ]
     }
   ],
-  "schemaVersion": "3.0.0",
-  "bundleStore": {
-    "url": "localhost:3000" 
-  }
+  "schemaVersion": "3.0.0"
 }
