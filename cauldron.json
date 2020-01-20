@@ -23,7 +23,7 @@
               "container": {
                 "jsApiImpls": [],
                 "miniApps": [
-                  "https://github.com/linjson/movies-reloaded-miniapp.git"
+                  "https://github.com/linjson/movies-reloaded-miniapp.git#master"
                 ],
                 "nativeDeps": [
                   "ernnavigation-api@1.1.0",
