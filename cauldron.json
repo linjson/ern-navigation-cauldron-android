@@ -22,7 +22,7 @@
                   "react-native@0.59.4"
                 ],
                 "miniAppsBranches": [
-                  "https://github.com/linjson/movies-reloaded-miniapp.git#master"
+                  "git@github.com:linjson/movies-reloaded-miniapp.git#master"
                 ],
                 "ernVersion": "0.36.4"
               },
